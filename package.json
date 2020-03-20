@@ -1,0 +1,30 @@
+{
+  "name": "shineon",
+  "version": "0.0.1",
+  "description": "Awesome stuff coming",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel *.html --open",
+    "build": "parcel build *.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anabolique89/ShineOnInfographic.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Nina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anabolique89/ShineOnInfographic/issues"
+  },
+  "homepage": "https://github.com/Anabolique89/ShineOnInfographic#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "gsap": "file:gsap-bonus.tgz"
+  }
+}
