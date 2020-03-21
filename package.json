@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anabolique89/ShineOnInfographic.git"
+    "url": "git+https://github.com/Anabolique89/TestingParcel.git"
   },
   "keywords": [
     "animation"
@@ -17,9 +17,9 @@
   "author": "Nina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Anabolique89/ShineOnInfographic/issues"
+    "url": "https://github.com/Anabolique89/TestingParcel/issues"
   },
-  "homepage": "https://github.com/Anabolique89/ShineOnInfographic#readme",
+  "homepage": "https://github.com/Anabolique89/TestingParcel#readme",
   "devDependencies": {
     "cssnano": "^4.1.10",
     "sass": "^1.26.3"
