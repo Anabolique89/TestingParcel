@@ -1,4 +1,7 @@
 body {
-  background: aquamarine;
+ 
   font-family: "Lovely Home", sans-serif;
+}
+#containerHorizontal {
+  background: url(imgs/Bricks.jpg);
 }
