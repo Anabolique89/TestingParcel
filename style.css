@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "CustomFont";
-  src: url("Fonts/Electrickle-ogrA.ttf");
-}
 html,
 body {
   height: 100%;
@@ -11,36 +7,19 @@ body {
 }
 #container {
   background: url(imgs/Bricks.jpg);
-}
 
-#container {
-  top: 0;
-  left: 0;
-  width: 400%;
+  overscroll-behavior: auto contain;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
+  scroll-snap-type: y mandatory;
+  perspective: 2vw;
+}
+.SVG {
+  width: 1500px;
   height: 100vh;
+  color: #fff;
   display: flex;
-  overflow: hidden;
-}
-#container .section {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
   align-items: center;
-}
-#container .section .content {
-  display: flex;
   justify-content: center;
-  align-items: center;
-}
-#container .section .content .text {
-  padding-right: 50px;
-}
-
-.text h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 4em;
 }
