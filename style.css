@@ -9,11 +9,11 @@ body {
 body {
   font-family: "Lovely Home", sans-serif;
 }
-#containerHorizontal {
+#container {
   background: url(imgs/Bricks.jpg);
 }
 
-#containerHorizontal {
+#container {
   top: 0;
   left: 0;
   width: 400%;
@@ -21,8 +21,7 @@ body {
   display: flex;
   overflow: hidden;
 }
-#containerHorizontal .sectionOne,
-.sectionTwo {
+#container .section {
   position: relative;
   width: 100%;
   height: 100%;
@@ -31,18 +30,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-#containerHorizontal .sectionOne,
-.sectionTwo,
-.content {
+#container .section .content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#containerHorizontal .sectionOne,
-.sectionTwo,
-.content .text {
+#container .section .content .text {
   padding-right: 50px;
 }
+
 .text h1 {
   margin: 0;
   padding: 0;
